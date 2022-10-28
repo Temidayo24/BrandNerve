@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: poppins regular;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  font-size: 1.2em;
+  background-color: rgb(210, 207, 230);
+  color: rgb(122, 16, 122);
+}
+
+img.logo {
+  margin-bottom: -23px;
+}
+
+main#container {
+  width: 550px;
+  height: auto;
+  border: 1px solid rgb(243, 232, 243);
+  border-radius: 20px;
+  background-color: white;
+  margin: 22px auto;
+  padding: 10px 28px;
+}
+
+.success {
+  text-align: center;
+  margin: 50px 10px 20px 10px;
+}
+
+.fa-check-circle-o {
+  font-size: 80px;
+  font-weight: light;
+}
+hr {
+  border: 1px solid rgb(122, 16, 122);
+}
+
+p.activate {
+  font-size: 0.7em;
+  margin-top: -12px;
+  font-style: italic;
+}
+.loginBtn a > button {
+  border: 1px solid rgb(243, 232, 243);
+  width: 160px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(243, 232, 243);
+  color: rgb(122, 16, 122);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.loginBtn {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a button:hover {
+  background-color: rgb(122, 16, 122);
+  color: white;
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    background-color: white;
+    font-size: 1em;
+  }
+
+  main#container {
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+    border: none;
+    padding: 10px;
+  }
+  .success {
+    margin: 50px 10px;
+    border: 3px solid rgb(243, 232, 243);
+    padding: 40px 5px 10px 5px;
+    border-radius: 10px;
+  }
+
+  .loginBtn a > button {
+  background-color: rgb(122, 16, 122);
+  color: white;
+  }
+}
